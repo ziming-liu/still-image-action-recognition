@@ -1,0 +1,11 @@
+MODELZOO
+attentionbest.pth
+.idea
+.pytest_cache
+stanford_bboxproposal
+mmcv
+data/sceneLabels/*
+lib/module/.ipynb_checkpoints/show-checkpoint.ipynb
+show
+
+

@@ -1,0 +1,8 @@
+
+DATASET:
+  IMAGE_SIZE : (224,224)
+  CROP_BBOX : True
+
+MODEL:
+  SAVE_IN : 'MODELZOO/un_att_pascal_0001.pth'
+  NAME : 'un_att_pascal_0001'

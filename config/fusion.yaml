@@ -1,0 +1,26 @@
+
+DATASET:
+  HIGH_RESOLUTION: 224
+  LOW_RESOLUTION: 56
+  INTERNAL: 8
+
+MODEL:
+  TRAIN: False
+  VAL: True
+  TEST: False
+  NAME : 'fusion_resnet101_RFBA'
+  #RESUME: '/home/share2/zimi/GLnet/MODELZOO/local_multi_resnet101/save_75.pth'
+  RESUME: '/home/share2/zimi/GLnet/MODELZOO/local_multi_resnet101_SGD/save_105.pth'
+  #RESUME : '/home/share2/zimi/GLnet/MODELZOO/local_multi_resnet101_3crop/save_81.pth'
+  RESULT: 'MODELZOO/'
+  CKP_DURING: 2
+TRAIN:
+  BEGIN_EPOCH: 1
+  BATCH_SIZE: 5
+
+TEST:
+  BATCH_SIZE: 6
+
+
+
+

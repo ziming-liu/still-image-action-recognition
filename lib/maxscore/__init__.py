@@ -1,0 +1,1 @@
+from .maxscore import MaxScore
